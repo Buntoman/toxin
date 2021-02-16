@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    align-items: center;
+}
+.nav > li{
+    margin-left: 15px;
+}
+.nav > li > a{
+    text-decoration: none;
+    color: Dark 50%;
+}
+.nav_but_login{
+    color: #8BA4F9;
+    background-color: #FFFFFF;
+    width: 87px;
+    height: 34px;
+    border: 2px solid #8BA4F9;
+    border-radius: 22px;
+    font-weight: 700;
+
+}
+.nav_but_reg{
+    color: #FFFFFF;
+    background-color: #8BA4F9;
+    width: 196px;
+    height: 34px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    border: none;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    display: block;
+    width: 105.69px;
+    height: 40px;
+    background-image: url("../img/logo.svg");
+}
